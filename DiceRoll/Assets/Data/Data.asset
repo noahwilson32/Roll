@@ -51,7 +51,7 @@ MonoBehaviour:
   - {x: 4, y: 5}
   - {x: 5, y: 5}
   tileMats:
-  - {fileID: 2100000, guid: ad9f6960109bed6448decb990804f35e, type: 2}
+  - {fileID: 2100000, guid: 2cfa72133fea4e346b66341ae7e8701a, type: 2}
   - {fileID: 2100000, guid: e5cbc27270bf9e046a8cd38133776f28, type: 2}
   - {fileID: 2100000, guid: 596fcb839c9dfcd4ea6bf4e9ec45178b, type: 2}
   - {fileID: 2100000, guid: cedc58fd253af6f45ba47c2634af1b59, type: 2}

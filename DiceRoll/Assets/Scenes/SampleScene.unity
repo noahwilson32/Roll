@@ -247,9 +247,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a2b2af38c3a789419c3533d100a22fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delay: 12
   planeDataValues: {fileID: 11400000, guid: 2ee34178a6a01914bb65b4a29e283762, type: 2}
   aPlane: {fileID: 8403501827998348350, guid: dcad0fd94339fb049a4d25ca96c0b11f, type: 3}
   gamePlane: {fileID: 1253005836}
+  tiles: []
+  neutralTileIds: 
+  rnd: 0
+  diceRoll: 0
+  diceMaterials: []
 --- !u!1 &1253005836
 GameObject:
   m_ObjectHideFlags: 0
