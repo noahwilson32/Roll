@@ -50,11 +50,11 @@ MonoBehaviour:
   - {x: 3, y: 5}
   - {x: 4, y: 5}
   - {x: 5, y: 5}
-  tileMats:
-  - {fileID: 2100000, guid: 2cfa72133fea4e346b66341ae7e8701a, type: 2}
-  - {fileID: 2100000, guid: e5cbc27270bf9e046a8cd38133776f28, type: 2}
-  - {fileID: 2100000, guid: 596fcb839c9dfcd4ea6bf4e9ec45178b, type: 2}
-  - {fileID: 2100000, guid: cedc58fd253af6f45ba47c2634af1b59, type: 2}
-  - {fileID: 2100000, guid: 2aa290c9da97c9f4ebf9ff017a747957, type: 2}
-  - {fileID: 2100000, guid: 0940174e3a08f1c49a0c840e34ebeb8c, type: 2}
-  - {fileID: 2100000, guid: d808f627d20e0454e844dc245dc706a9, type: 2}
+  diceFaces:
+  - {fileID: 1035316568878775168, guid: 61b6a1788f93eb542bc2af7c97b03b19, type: 3}
+  - {fileID: -2911120942808080618, guid: 2ffcd0d484c75b843a5b63380fb23980, type: 3}
+  - {fileID: -4868149570889053858, guid: 7dd3a582e07851c47a5510b46c4643d1, type: 3}
+  - {fileID: -1569912535167633493, guid: 0915d760e3e0bee458593d37a134f454, type: 3}
+  - {fileID: -660503331405230977, guid: 238227aa30dd5e6429b94b3ed67b3f96, type: 3}
+  - {fileID: 1475833428259149377, guid: a9bced8308db6be49bce0a254060daa5, type: 3}
+  - {fileID: -1298842044264212748, guid: 4e915ca56d2e6d14aae45c16a2968351, type: 3}

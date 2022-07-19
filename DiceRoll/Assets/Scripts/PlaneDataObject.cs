@@ -9,7 +9,7 @@ public class PlaneDataObject : ScriptableObject
 
     public Vector2Int[] tilePos;
 
-    public Material[] tileMats;
+    public Sprite[] diceFaces;
 
 
 }
