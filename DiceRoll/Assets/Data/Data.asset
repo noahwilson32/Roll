@@ -52,9 +52,9 @@ MonoBehaviour:
   - {x: 5, y: 5}
   diceFaces:
   - {fileID: 1035316568878775168, guid: 61b6a1788f93eb542bc2af7c97b03b19, type: 3}
-  - {fileID: -2911120942808080618, guid: 2ffcd0d484c75b843a5b63380fb23980, type: 3}
-  - {fileID: -4868149570889053858, guid: 7dd3a582e07851c47a5510b46c4643d1, type: 3}
-  - {fileID: -1569912535167633493, guid: 0915d760e3e0bee458593d37a134f454, type: 3}
-  - {fileID: -660503331405230977, guid: 238227aa30dd5e6429b94b3ed67b3f96, type: 3}
-  - {fileID: 1475833428259149377, guid: a9bced8308db6be49bce0a254060daa5, type: 3}
-  - {fileID: -1298842044264212748, guid: 4e915ca56d2e6d14aae45c16a2968351, type: 3}
+  - {fileID: -8693021926664272636, guid: 7c491bbecdecd7244bb6875ec87c1a12, type: 3}
+  - {fileID: -4670116361829409331, guid: 7679ff3cdc70eed4aa2fcca970edb300, type: 3}
+  - {fileID: 3404871064424834022, guid: ea74ba64839d5984bbb55628718da076, type: 3}
+  - {fileID: -1877459563159391933, guid: e1d3af6895dd75546bb687246c9a6472, type: 3}
+  - {fileID: -8105047264032821082, guid: ad5a8a59d4c8a6642a70d74f8fc2d71a, type: 3}
+  - {fileID: 2660899871193632464, guid: f52efd1ec2fb26c4da335921ccbf24e7, type: 3}
