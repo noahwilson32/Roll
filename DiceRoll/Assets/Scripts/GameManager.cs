@@ -99,8 +99,8 @@ public class GameManager : MonoBehaviour
             //Material diceFace = getDiceFace(diceRoll);
             //tileToFlip.GetComponent<MeshRenderer>().material = diceFace;
             tileToFlip.GetComponent<SpriteRenderer>().sprite = diceFace;
-            //Animator _anim = tileToFlip.GetComponent<Animator>();
-
+            Animator _anim = tileToFlip.GetComponent<Animator>();
+            _anim.SetBool("isFlipped", true);
             //FlipColor(tileToFlip,diceRoll,timer);
             neutralTileIds.RemoveAt(rnd);
         }
