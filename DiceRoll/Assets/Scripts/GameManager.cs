@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public float delay = 0;
+    public float delay = 2.0f;
     public PlaneDataObject planeDataValues;
     public GameObject Dice_Prefab;
     public GameObject gamePlane;
@@ -42,13 +42,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("FlipNeutral", 2.0f, 2.0f);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-    
+        InvokeRepeating("FlipNeutral", delay, delay);
     }
 
     
@@ -93,15 +87,13 @@ public class GameManager : MonoBehaviour
 
             GameObject tileToFlip = GameObject.Find(tileRefString);
 
-            float timer = 0.0f;
             diceRoll = (int)Random.Range(0, 6);
+
             Sprite diceFace = getDiceFace(diceRoll);
-            //Material diceFace = getDiceFace(diceRoll);
-            //tileToFlip.GetComponent<MeshRenderer>().material = diceFace;
+
             tileToFlip.GetComponent<SpriteRenderer>().sprite = diceFace;
-            Animator _anim = tileToFlip.GetComponent<Animator>();
-            _anim.SetBool("isFlipped", true);
-            //FlipColor(tileToFlip,diceRoll,timer);
+            tileToFlip.GetComponent<Animator>().SetBool("isFlipped", true);
+           
             neutralTileIds.RemoveAt(rnd);
         }
         else
@@ -111,34 +103,6 @@ public class GameManager : MonoBehaviour
         
         
     }
-
-    /*
-    public void FlipColor(GameObject _tile, int _diceRoll, float _timer)
-    {
-        Debug.Log(_timer);
-       /* while (_timer <= 12f)
-        {
-            _timer += Time.deltaTime;
-            int seconds = (int)_timer % 60;
-            
-            /*
-            t += Time.deltaTime;
-            if (t > 4f && t < 8f)
-            {
-                _tile.GetComponent<MeshRenderer>().material = ivoryMaterials[_diceRoll];
-            }
-            if (t > 8f && t < 12f)
-            {
-                _tile.GetComponent<MeshRenderer>().material = redMaterials[_diceRoll];
-            }
-        }
-        Destroy(_tile, 12f);
-        
-        
-    }
-    */
-
-
 }
 
 
