@@ -4,35 +4,6 @@ using UnityEngine;
 
 public class DragController : MonoBehaviour
 {
-
-
-
-    [SerializeField]
-    private bool isClicking = false;
-
-    [SerializeField]
-    Vector2 mousePos;
-
-    [SerializeField]
-    private Vector3 worldCords;
-
-    public Camera mainCamera;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     // Start is called before the first frame update
     void Start()
     {
@@ -42,16 +13,19 @@ public class DragController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        MouseControls();
+    }
+
+
+    void MouseControls()
+    {
         if (Input.GetMouseButton(0))
         {
-            isClicking = true;
-            mousePos = Input.mousePosition;
-            Debug.Log(mousePos);
-            worldCords = mainCamera.ScreenToWorldPoint(Input.mousePosition);
-        }
-        else 
-        {
-            isClicking = false;
+            var mousePos = Input.mousePosition;
+            mousePos.z = 15;
+            var worldPos = Camera.main.ScreenToWorldPoint(mousePos);
+            Debug.Log("X: " + worldPos.x.ToString() + " Y: " + worldPos.y.ToString());
+            transform.position = Vector3.Lerp(transform.position, worldPos, Time.deltaTime);
         }
     }
 }
