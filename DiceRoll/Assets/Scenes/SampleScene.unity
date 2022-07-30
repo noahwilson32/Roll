@@ -151,10 +151,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63f45f62ec3e1ce489ead9cf93f048bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isClicking: 0
-  mousePos: {x: 0, y: 0}
-  worldCords: {x: 0, y: 0, z: 0}
-  mainCamera: {fileID: 519420031}
 --- !u!212 &126457874
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -368,7 +364,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &439894414
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -733,7 +729,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a2b2af38c3a789419c3533d100a22fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 1.1
+  delay: 2.5
   planeDataValues: {fileID: 11400000, guid: 2ee34178a6a01914bb65b4a29e283762, type: 2}
   Dice_Prefab: {fileID: 2918400798848549288, guid: 660d1eedb815f9341afa661b190859e6,
     type: 3}
